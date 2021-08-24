@@ -1,0 +1,281 @@
+*{ 
+    margin:0;
+    padding:0;
+    font-family: arial narrow, sans-serif;
+    text-align: center;
+	background-color:;
+}
+
+#header {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #000;
+    background-color:#17202A;
+}
+#logo{
+    float: left;
+    width:50px;
+    height:50px;
+    background:#17202A url(1280px-Intel-logo.svg.png) center center no-repeat;
+    background-size: contain;
+}
+#nav{
+    float: right;
+    width: 600px;
+    height: 50px;
+    border: 0px solid red;
+    text-align: center;
+    
+}
+
+#nav ul{
+    list-style:none;
+    
+}
+
+#nav ul li{
+    display: inline-block;
+    padding-top: 30px;
+    
+}
+#nav ul li a{
+    text-decoration:none;
+    color: white;
+    margin: 0 5px;
+    padding:8px;
+}
+
+#content{
+    width:100%;
+    height: 600px;
+   
+        
+}
+#content ul{
+    list-style: none;
+}
+
+#content ul li{
+    display: inline-block;
+}
+#pic{
+    width: 100%;
+    height: 150px;
+    background: #fff url('laptop_cup_glasses_plant.jpg')  no-repeat;
+    background-size: cover;
+}
+
+#slogan{
+    width: 120px;
+    height 40px;
+    text-align: center; 
+    float: left;
+    background: rgba(0,0,0,0.3);
+    color:aliceblue;
+    margin-top: 30px;
+    padding:20px;
+}
+#c1{
+    padding: 10px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+    width: 30%;
+    height: 80px;
+    text-align: center;
+     border: 0px solid #000;
+}
+
+
+#c1 h2 a{
+    text-align: center;
+    text-decoration-color:black;
+    font-size: 20x;
+    
+    
+    
+}
+
+#c2{
+    padding: 10px;
+    padding-bottom: 21px;
+    padding-left: 25px;
+    width: 30%;
+    height=80px;
+    border: 0px solid #000;
+    text-align: center;
+}
+
+#c2 h2 a{
+    text-align: center;
+    text-decoration-color:black;
+    font-size: 20x;
+}
+
+
+#c3{
+    padding: 10px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+    width: 30%;
+    height: 80px;
+    text-align: center;
+    border: 0px solid #000;
+
+}
+
+
+#c3 h2 a{
+    text-align: center;
+    text-decoration-color:black;
+    font-size: 20x;
+}
+
+
+#fw{
+    width=100%;
+    height: 100px;
+    border: 0px solid #000;
+}
+#fw h2{
+   text-align: center;
+}
+
+#fw p{
+    padding: 20px;
+    text-align: center; 
+}
+
+#fwp {
+    width:100%;
+    height:400px;
+    padding: 20px;
+    padding-top: 0px;
+  }
+
+#fwp ul{
+    list-style: none;
+}
+
+#fwp ul li{
+    display: inline-block;
+}
+
+#fwp ul li a{
+    text-decoration: none;
+}
+
+#p1{
+    background: #fff url(laptop1.jpg) center center no-repeat;
+    width: 22%;
+    height: 200px;
+    background-size: cover;
+    border: 0px solid #000;
+}
+
+#p2{
+    background: #fff url(laptop2.jpg) center center no-repeat;
+    width: 22%;
+    height: 200px;
+    background-size: cover;
+    border: 0px solid #000;
+}
+
+#p3{
+    background: #fff url(iphone1.jpg) center center no-repeat;
+    width: 22%;
+    height: 200px;
+    background-size: cover;
+    border: 0px solid #000;
+}
+
+#p4{
+    background: #fff url(laptop4.jpg) center center no-repeat;
+    width: 22%;
+    height: 200px;
+    background-size: cover;
+    border: 0px solid #000;
+}
+
+#p5{
+    background: #fff url(ipad1.jpeg) center center no-repeat;
+    width: 22%;
+    height: 200px;
+    background-size: cover;
+    border: 0px solid #000;
+}
+
+#p6{
+    background: #fff url(iphone2.jpg) center center no-repeat;
+    width: 22%;
+    height: 200px;
+    background-size: cover;
+    border: 0px solid #000;
+}
+
+#p7{
+    background: #fff url(speakers2.jpg) center center no-repeat;
+    width: 22%;
+    height: 200px;
+    background-size: cover;
+    border: 0px solid #000;
+}
+
+#p8{
+    background: #fff url(speaker1.jpg) center center no-repeat;
+    width: 22%;
+    height: 200px;
+    background-size: contain;
+    border: 0px solid #000;
+}
+
+#footer{
+    width=100%;
+    height: 400px;
+   
+    text-align:left;
+    background: #17202A;
+    color: #fff;
+}
+
+#ab{
+    float: left;
+    padding-left: 350px;
+    padding-bottom: 63px;
+    width: 20%;
+    height=50px;
+    border: 0px solid #fff;
+    text-align: left;
+}
+
+#ab a h4{
+    text-decoration: none;
+    color: aliceblue;
+   
+}
+
+#cn{
+    float: right;
+    padding: 10px;
+    padding-top: 0px;
+    padding-right: 350px;
+    width:25%;
+    height=100px;
+    border: 0px solid #fff;
+    text-align: left;
+}
+
+#cn a h4{
+   
+   
+    text-decoration:none;
+    color: aliceblue;
+}
+
+#nav ul li a:hover{
+    text-decoration:none;
+    color:deepskyblue;
+    margin: 0 5px;
+    padding:8px;
+    font-size: 20px;
+}
+
